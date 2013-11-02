@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.example.games.tanc;
+package com.cubo2d.ejemplo;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -46,7 +46,7 @@ public class MainActivity extends BaseGameActivity
 
     // Fragments
     MainMenuFragment mMainMenuFragment;
-    GameplayFragment mGameplayFragment;
+    //GameplayFragment mGameplayFragment;
     WinFragment mWinFragment;
 
     // request codes we use when invoking an external activity
@@ -69,12 +69,12 @@ public class MainActivity extends BaseGameActivity
 
         // create fragments
         mMainMenuFragment = new MainMenuFragment();
-        mGameplayFragment = new GameplayFragment();
+       // mGameplayFragment = new GameplayFragment();
         mWinFragment = new WinFragment();
 
         // listen to fragment events
         mMainMenuFragment.setListener(this);
-        mGameplayFragment.setListener(this);
+        //mGameplayFragment.setListener(this);
         mWinFragment.setListener(this);
 
         // add initial fragment (welcome fragment)
@@ -88,7 +88,7 @@ public class MainActivity extends BaseGameActivity
         // we don't deal with that for code simplicity.
 
         // load outbox from file
-        mOutbox.loadLocal(this);
+       // mOutbox.loadLocal(this);
 
         setSignInMessages(getString(R.string.signing_in), getString(R.string.signing_out));
     }
@@ -130,7 +130,7 @@ public class MainActivity extends BaseGameActivity
      */
     void startGame(boolean hardMode) {
         mHardMode = hardMode;
-        switchToFragment(mGameplayFragment);
+       // switchToFragment(mGameplayFragment);
     }
 
     /**

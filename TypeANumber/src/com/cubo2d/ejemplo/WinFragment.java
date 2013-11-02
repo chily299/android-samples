@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.example.games.tanc;
+package com.cubo2d.ejemplo;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

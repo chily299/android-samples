@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.example.games.tanc;
+package com.cubo2d.ejemplo;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -25,7 +25,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.google.example.games.tanc.R;
+import com.cubo2d.ejemplo.R;
 
 /**
  * Fragment for the gameplay portion of the game. It shows the keypad
