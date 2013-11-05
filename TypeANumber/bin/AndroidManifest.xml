@@ -43,7 +43,7 @@
         <meta-data android:name="com.google.android.gms.games.APP_ID"
             android:value="@string/app_id" />
         <activity
-            android:name="com.google.example.games.tanc.MainActivity"
+            android:name="com.cubo2d.example.games.tanc.MainActivity"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait" >
             <intent-filter>
